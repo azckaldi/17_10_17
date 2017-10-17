@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background:#f3f8f8;
+	font-family: "catamaran", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+}
+
+.container {
+	width: 960px;
+	margin: 30px auto;
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.clearBoth {
+	clear: both;
+}
+
+/*	HEADER  */
+
+header#header {
+	background: white;
+	padding: 10px;	
+	margin-bottom: 40px;
+	font-size: 24px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logoImg {
+	float: right;
+	width : 180px;
+	padding: 10px;
+}
+
+.logoImg + div {
+	float: right;
+	text-align: right;
+}
+
+#left {
+	float: left;
+	text-align: left;
+}
+h1 {
+	font-size: 30px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-right : 40px;
+	font-weight: 900px ;
+}
+
+header p {
+	text-transform: uppercase;
+	text-align: center;
+	padding-right : 40px;
+	line-height: 50%;
+}
+
+.classified {
+	font-family: catamaran , sans-serif;
+	font-style: bold;
+	color: #e74c3c;
+}
+
+h6 {
+	text-align: center;
+	padding-right: 40px;
+}
+
+/*	MAIN  */
+
+article,aside {
+	float: left;
+	width: 660px;
+	margin: 9px;
+	padding: 10px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article2 {
+	width : 260px;	
+}
+
+.article3 {
+	float: right;
+	height: 260px;
+	width: 263px;
+}
+
+.article3 img {
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+}
+
+article h2, aside h2 {
+	color: solid black;
+	font-size: 18px;
+	text-transform: uppercase ;
+}
+
+article img, aside img  {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+}
+
+/*	FOOTER  */
+
+footer {
+	margin-top: 40px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer img {
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+.align {
+	text-align: center;
+}
+
+footer p {
+	text-decoration: underline;
+	font-family: 'Khula', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: right;
+}
